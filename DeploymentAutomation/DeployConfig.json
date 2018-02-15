@@ -1,0 +1,118 @@
+{
+  "MasterBranch": {
+    "CPTArm": {
+      "Subcription": "Cloud Mgmt Platform Test Public",
+      "ResourceGroup": "ARMProd",
+      "StorageAccount": "armcloudms",
+      "Container": "nested"
+    },
+    "CPTArmDeployPortal": {
+      "Subcription": "Cloud Mgmt Platform Test Public",
+      "ResourceGroup": "ARMProd",
+      "StorageAccount": "armcloudms",
+      "Container": "msit"
+    },
+    "ManagedApplication": {
+      "Subcription": "Cloud Mgmt Platform Test Public",
+      "ResourceGroup": "ARMProd",
+      "StorageAccount": "armcloudms",
+      "Container": "managed",
+      "Details": [
+        {
+          "Name": "ManagedWindowsVMServer",
+          "VsoName": "ManagedWindowsVMServer",
+          "Enabled": true,
+          "DisplayName": "Managed Windows VM Server",
+          "Description": "Managed single/multiple Windows/SQL Servers",
+          "Location": "East US 2",
+          "AuthrizationGroupID": "b055dd52-45f8-4fb7-99c0-5b4fe3c99bee",
+          "AuthrizationRoleID": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635"
+        },
+        {
+          "Name": "ManagedWindowsVMServer2",
+          "VsoName": "ManagedWindowsVMServer2",
+          "Enabled": false,
+          "DisplayName": "Managed Windows VM Server2",
+          "Description": "Managed single/multiple Windows/SQL Servers",
+          "Location": "East US 2",
+          "AuthrizationGroupID": "b055dd52-45f8-4fb7-99c0-5b4fe3c99bee",
+          "AuthrizationRoleID": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635"
+        }
+      ]
+    }
+  },
+  "BetaBranch": {
+    "CPTArm": {
+      "Subcription": "Cloud Mgmt Platform Test Public",
+      "ResourceGroup": "ARMProd",
+      "StorageAccount": "armcloudms",
+      "Container": "nested"
+    },
+    "CPTArmDeployPortal": {
+      "Subcription": "Cloud Mgmt Platform Test Public",
+      "ResourceGroup": "ARMProd",
+      "StorageAccount": "armcloudms",
+      "Container": "msit"
+    },
+    "ManagedApplication": {
+      "Subcription": "Cloud Mgmt Platform Test Public",
+      "ResourceGroup": "ARMProd",
+      "StorageAccount": "armcloudms",
+      "Container": "managed",
+      "Details": [
+        {
+          "Name": "ManagedWindowsVMServer-betabranch",
+          "VsoName": "ManagedWindowsVMServer",
+          "Enabled": true,
+          "DisplayName": "Managed Windows VM Server-betabranch",
+          "Description": "Managed single/multiple Windows/SQL Servers from beta branch",
+          "Location": "East US 2",
+          "AuthrizationGroupID": "b055dd52-45f8-4fb7-99c0-5b4fe3c99bee",
+          "AuthrizationRoleID": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635"
+        },
+        {
+          "Name": "ManagedWindowsVMServer2-betabranch",
+          "VsoName": "ManagedWindowsVMServer2",
+          "Enabled": false,
+          "DisplayName": "Managed Windows VM Server2",
+          "Description": "Managed single/multiple Windows/SQL Servers",
+          "Location": "East US 2",
+          "AuthrizationGroupID": "b055dd52-45f8-4fb7-99c0-5b4fe3c99bee",
+          "AuthrizationRoleID": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635"
+        }
+      ]
+    }
+  },
+  "DevelopBranch": {
+   "CPTArm": {
+      "Subcription": "Cloud Mgmt Platform Test Public",
+      "ResourceGroup": "ARMProd",
+      "StorageAccount": "armcloudms",
+      "Container": "nested"
+    },
+    "CPTArmDeployPortal": {
+      "Subcription": "Cloud Mgmt Platform Test Public",
+      "ResourceGroup": "ARMProd",
+      "StorageAccount": "armcloudms",
+      "Container": "msit"
+    },
+    "ManagedApplication": {
+      "Subcription": "Cloud Mgmt Platform Test Public",
+      "ResourceGroup": "ARMProd",
+      "StorageAccount": "armcloudms",
+      "Container": "managed",
+      "Details": [
+        {
+          "Name": "ManagedWindowsVMServer-devbranch",
+          "VsoName": "ManagedWindowsVMServer",
+          "Enabled": true,
+          "DisplayName": "Managed Windows VM Server - develop branch",
+          "Description": "Managed single/multiple Windows/SQL Servers from Develop branch",
+          "Location": "East US 2",
+          "AuthrizationGroupID": "b055dd52-45f8-4fb7-99c0-5b4fe3c99bee",
+          "AuthrizationRoleID": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635"
+        }
+      ]
+    }
+  }
+}
