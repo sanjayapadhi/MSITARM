@@ -326,7 +326,7 @@
   "variables": {
     "apiVersion": "2015-01-01",
 
-    "branch": "beta",
+     "branch": "develop",
     "NestedBaseURL": "[concat(parameters('NestedBaseURL'),variables('branch'))]",
     "scriptsURL": "[concat(variables('NestedBaseURL'),'/all-scripts/')]",
     "nestedURL": "[concat(variables('NestedBaseURL'),'/all-nested/')]",
